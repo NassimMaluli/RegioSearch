@@ -1,0 +1,140 @@
+<resources>
+    <string name="categories_app_name">sp21</string>
+    <string name="categories_select_data_categories">Select data categories</string>
+    <string name="categories_company_name">Company name</string>
+    <string name="categories_owner_name">Owner name</string>
+    <string name="categories_types_of_companies">Types of companies</string>
+    <string name="categories_address_of_company">Address of company</string>
+    <string name="categories_description_of_company">Description of company</string>
+    <string name="categories_description_of_product">Description of product</string>
+    <string name="categories_product_group_tags">Product group tags</string>
+    <string name="categories_opening_hours_comments">Opening hours comments</string>
+    <string name="categories_name_of_organization">Name of organization</string>
+    <string name="categories_messages_of_company">Messages of company</string>
+    <string name="categories_submit">Submit</string>
+    <string name="categories_toast">Please select at least one category.</string>
+
+    <string name="categories_prouct_category">Product Category</string>
+
+
+    <string-array name="daysOfTheWeek">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="times">
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+        <item>00:00</item>
+    </string-array>
+    <string name="organisation_Query_hint">Choose an Organisation</string>
+
+
+
+    <string name="map_key" translatable="false">AIzaSyDG2FAOXrpD2loxrfBOfKLA1rBXzlap40w</string>
+    <string name="title_activity_location_search">Map</string>
+    <string name="details_company_name">Company Name</string>
+    <string name="details_company_description">Company Description</string>
+    <string name="details_owner_name">Owner Name</string>
+    <string name="details_url">URL</string>
+    <string name="details_e_mail_adresse">E-Mail Adresse</string>
+    <string name="details_id">ID</string>
+    <string name="details_address">Address</string>
+    <string name="details_location">Location</string>
+    <string name="details_opening_comment">Opening Comment</string>
+    <string name="details_geohash">GeoHash</string>
+    <string name="details_products_description">Products Description</string>
+    <string name="details_opening_hours">Opening Hours</string>
+    <string name="location_location_settings">Location Settings</string>
+    <string name="location_enter_location">Enter Location</string>
+    <string name="location_use_current">Use current</string>
+    <string name="location_city_postal_code">City, Postal code*</string>
+    <string name="location_address">address</string>
+    <string name="location_find">find</string>
+    <string name="location_radius">Radius :</string>
+    <string name="location_show_results_on_map">show results on map</string>
+    <string name="location_current_location">current location</string>
+    <string name="location_show_results_in_a_list">show results in a List</string>
+    <string name="search_categories">Categories</string>
+    <string name="search_filters">Filters</string>
+    <string name="search_location_search">Location search</string>
+    <string name="search_favorites">Favorites</string>
+    <string name="filter_filter_by">Filter by</string>
+    <string name="filter_product">Product</string>
+    <string name="filter_company">Company</string>
+    <string name="filter_organization">organization</string>
+    <string name="filter_opening_hours">opening hours</string>
+    <string name="filter_available_products">Available products</string>
+    <string name="filter_company_types">Company types</string>
+    <string name="filter_organizations">Organizations</string>
+    <string name="filter_openeing_hours_options">Opening Hours options</string>
+    <string name="filter_choose_opening_hours">choose opening hours</string>
+    <string name="filter_currently_open">Currently Open</string>
+    <string name="filter_day">Day</string>
+    <string name="filter_from">From</string>
+    <string name="filter_to">To</string>
+    <string name="filter_delivery">Delivery</string>
+    <string name="filter_submit">Submit</string>
+    <string name="results">Results</string>
+    <string name="favorites">Favorites</string>
+    <string name="done">Done</string>
+    <string name="delete">Delete</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="remove_favorite">Remove Favorite</string>
+
+    <string name="urlstring">No URL available</string>
+    <string name="openstring">Open </string>
+    <string name="closestring">Close </string>
+    <string name="statusstring">Closed.</string>
+    <string name="longstring">Longitude: </string>
+    <string name="latstring">Latitude: </string>
+    <string name="ownerstring">Owners Name: </string>
+    <string name="messagestring">No messages available</string>
+    <string name="distancestring">Distance from User: </string>
+    <string name="categories">Categories</string>
+    <string name="search">Search</string>
+    <string name="locationsearch">Location Search</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="openinghours">Opening Hours</string>
+    <string name="messageday">Message of the day</string>
+    <string name="address">Address</string>
+    <string name="emailadress">Email-Address: </string>
+    <string name="companydetails">Company Details </string>
+    <string name="postingdate">Date of posting</string>
+    <string name="search_activity">Search</string>
+    <string name="searchcontroller_toast_new_messages">Your favorites have new messages</string>
+
+
+</resources>

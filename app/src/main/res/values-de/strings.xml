@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="categories_app_name">sp21</string>
+    <string name="categories_select_data_categories">Datenkategorien auswählen</string>
+    <string name="categories_company_name">Name der Firma</string>
+    <string name="categories_owner_name">Name des Besitzers</string>
+    <string name="categories_types_of_companies">Arten von Unternehmen</string>
+    <string name="categories_address_of_company">Adresse der Firma</string>
+    <string name="categories_description_of_company">Beschreibung der Firma</string>
+    <string name="categories_description_of_product">Beschreibung des Produkts</string>
+    <string name="categories_product_group_tags">Produktgruppen Tags</string>
+    <string name="categories_opening_hours_comments">Öffnungszeiten Kommentare</string>
+    <string name="categories_name_of_organization">Name der Organisation</string>
+    <string name="categories_messages_of_company">Meldungen der Firma</string>
+    <string name="categories_submit">Senden</string>
+    <string name="categories_toast">Bitte wählen Sie mindestens eine Kategorie.</string>
+    <string name="categories_prouct_category" translatable="false">Produktkategorie</string>
+    <string name="organisation_Query_hint" translatable="false">Wähle eine Organisation</string>
+    <string name="title_activity_location_search">Karte</string>
+    <string name="details_company_name">Name</string>
+    <string name="details_company_description">Beschreibung</string>
+    <string name="details_owner_name">Besitzer</string>
+    <string name="details_url">URL</string>
+    <string name="details_e_mail_adresse">E-Mail</string>
+    <string name="details_id">ID</string>
+    <string name="details_address">Adresse</string>
+    <string name="details_location">Standort</string>
+    <string name="details_opening_comment">Öffnungszeiten Kommentar</string>
+    <string name="details_geohash">GeoHash</string>
+    <string name="details_products_description">Produkt Beschreibung</string>
+    <string name="details_opening_hours">Öffnungszeiten</string>
+    <string name="location_location_settings">Standort Einstellungen</string>
+    <string name="location_enter_location">Standort eingeben</string>
+    <string name="location_use_current">Aktuellen Standort verwenden</string>
+    <string name="location_city_postal_code">Stadt, PLZ*</string>
+    <string name="location_address">Adresse</string>
+    <string name="location_find">Suche</string>
+    <string name="location_radius">Umkreis:</string>
+    <string name="location_show_results_on_map">Zeige Resultate auf der Karte</string>
+    <string name="location_current_location">Aktueller Standort</string>
+    <string name="location_show_results_in_a_list">Resultate in der Liste anzeigen</string>
+    <string name="search_categories">Kategorien</string>
+    <string name="search_filters">Filter</string>
+    <string name="search_location_search">Umgebungssuche</string>
+    <string name="search_favorites">Favoriten</string>
+    <string name="filter_filter_by">Filtern nach</string>
+    <string name="filter_product">Produkt</string>
+    <string name="filter_company">Firma</string>
+    <string name="filter_organization">Organisation</string>
+    <string name="filter_opening_hours">Öffnungszeiten</string>
+    <string name="filter_available_products">Erhältliche Profukte</string>
+    <string name="filter_company_types">Firmen Typen</string>
+    <string name="filter_organizations">Organisationen</string>
+    <string name="filter_openeing_hours_options">Öffnungszeiten Optionen</string>
+    <string name="filter_choose_opening_hours">Wähle Öffnungszeiten</string>
+    <string name="filter_currently_open">Aktuell geöffnet</string>
+    <string name="filter_day">Tag</string>
+    <string name="filter_from">Von</string>
+    <string name="filter_to">Bis</string>
+    <string name="filter_delivery">Lieferung</string>
+    <string name="filter_submit">Fertig</string>
+    <string name="results">Resultate</string>
+    <string name="favorites">Favoriten</string>
+    <string name="done">Fertig</string>
+    <string name="delete">Löschen</string>
+    <string name="add_to_favorites">Zu Favoriten hinzufügen</string>
+    <string name="remove_favorite">Aus Favoriten löschen</string>
+
+    <string name="urlstring">Kein verfügbaren URL</string>
+    <string name="openstring">Offen: </string>
+    <string name="closestring">Zu: </string>
+    <string name="statusstring">Geschlossen.</string>
+    <string name="longstring">Längengrad:</string>
+    <string name="latstring">Breitengrad:</string>
+    <string name="ownerstring">Besitzername: </string>
+    <string name="messagestring">Keine Nachrichten verfügbar</string>
+    <string name="distancestring">Entfernung vom Benutzer</string>
+    <string name="search">Suche</string>
+    <string name="locationsearch">Standort Suche</string>
+    <string name="categories">Kategorien</string>
+    <string name="monday">Montag</string>
+    <string name="tuesday">Dienstag</string>
+    <string name="wednesday">Mittwoch</string>
+    <string name="thursday">Donnerstag</string>
+    <string name="friday">Freitag</string>
+    <string name="saturday">Samstag</string>
+    <string name="sunday">Sonntag</string>
+    <string name="openinghours">Öffnungszeiten</string>
+    <string name="messageday">Nachricht des Tages</string>
+    <string name="address">Adresse</string>
+    <string name="emailadress">Email-Adresse: </string>
+    <string name="companydetails">Unternehmens Informationen</string>
+    <string name="postingdate">Datum des Postens</string>
+
+    <string-array name="daysOfTheWeek">
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+        <item>Sonntag</item>
+    </string-array>
+    <string name="search_activity">Suche</string>
+    <string name="searchcontroller_toast_new_messages">Es gibt neue Meldungen bei ihren Favoriten</string>
+</resources>

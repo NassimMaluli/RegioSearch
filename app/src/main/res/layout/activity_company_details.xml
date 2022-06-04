@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompanyDetailsActivity"
+    android:background="@drawable/filter">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="151dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/company_name"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:text="Company Name"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:translationX="15dp"
+                android:translationY="0dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@android:color/transparent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/left_imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_baseline_arrow_left_24" />
+
+                <ImageView
+                    android:id="@+id/pics_imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="#434141"
+                    app:srcCompat="@android:drawable/screen_background_dark_transparent" />
+
+                <ImageButton
+                    android:id="@+id/right_imageButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_baseline_arrow_right_24" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="Company Description"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:translationX="15dp"
+                android:translationY="0dp" />
+
+            <TextView
+                android:id="@+id/openhour"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Opening Hours"
+                android:translationX="15dp"
+                android:translationY="0dp" />
+
+            <TextView
+                android:id="@+id/owner"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="Owner Name"
+                android:translationX="15dp"
+                android:translationY="0dp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Address"
+                android:translationX="15dp"
+                android:translationY="0dp" />
+
+            <TextView
+                android:id="@+id/pd"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Products Description"
+                android:translationX="15dp"
+                android:translationY="0dp" />
+
+            <TextView
+                android:id="@+id/opencomm"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Opening Comment"
+                android:translationX="15dp"
+                android:translationY="0dp" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Location"
+                android:translationX="15dp"
+                android:translationY="0dp" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="E-Mail Adresse"
+                android:translationX="15dp"
+                android:translationY="0dp" />
+
+            <TextView
+                android:id="@+id/url"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="URL"
+                android:translationX="15dp"
+                android:translationY="0dp" />
+
+            <TextView
+                android:id="@+id/messages"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="40dp"
+                android:text="Messages"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:translationX="15dp"
+                android:translationY="0dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
