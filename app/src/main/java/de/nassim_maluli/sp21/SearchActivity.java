@@ -11,6 +11,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.SearchView;
 import java.util.ArrayList;
 import de.uni_marburg.sp21.controller.SearchController;
@@ -62,10 +63,10 @@ public class SearchActivity extends AppCompatActivity {
         searchView.setQueryHint(getString(R.string.search_activity));
 
 
-        Button categoriesButton = findViewById(R.id.categoriesButton);
-        Button filterButton = findViewById(R.id.filterButton);
-        Button favoritesButton = findViewById(R.id.favoritesButton);
-        Button LocationSearchButton = findViewById(R.id.LocationSearch_button);
+        ImageView categoriesButton = findViewById(R.id.imageView1);
+        ImageView filterButton = findViewById(R.id.imageView2);
+        ImageView favoritesButton = findViewById(R.id.imageView3);
+        ImageView LocationSearchButton = findViewById(R.id.imageView4);
 
 
 

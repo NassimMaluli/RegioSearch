@@ -6,7 +6,6 @@ plugins {
 
 android {
     compileSdkVersion 30
-    buildToolsVersion "29.0.3"
 
     defaultConfig {
         applicationId "de.uni_marburg.sp21"
@@ -55,6 +54,9 @@ dependencies {
     
     //google Storage dep
     implementation 'com.google.firebase:firebase-storage'
+
+    //adding the dependency for material design
+    implementation 'com.google.android.material:material:1.2.1'
 
     //google map dependency
     implementation 'com.google.maps.android:android-maps-utils:2.2.3'

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SearchActivity"
-    android:background="@drawable/farm">
+    android:background="@drawable/gradient_background">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -151,7 +151,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_weight="0.5"
-                        android:queryHint="@string/location_city_postal_code" >
+                        android:background="@drawable/transparent_rec"
+                        android:queryHint="@string/location_city_postal_code">
 
                         <TextView
                             android:id="@+id/radius_textView1"
@@ -193,6 +194,7 @@
                         android:layout_width="230dp"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
+                        android:background="@drawable/transparent_rec"
                         android:queryHint="address">
 
                     </SearchView>
@@ -229,6 +231,7 @@
                     android:id="@+id/findLocation_button"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/transparent_rec"
                     android:ems="1"
                     android:gravity="center"
                     android:text="@string/location_find"
@@ -306,6 +309,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
+                    android:background="@drawable/transparent_rec"
                     android:gravity="center"
                     android:text="@string/location_show_results_on_map"
                     android:textSize="12sp" />
@@ -385,22 +389,18 @@
             <LinearLayout
                 android:id="@+id/map_layout"
                 android:layout_width="match_parent"
-                android:layout_height="400dp"
+                android:layout_height="370dp"
+                android:background="@drawable/transparent_rec"
+                android:gravity="center"
                 android:orientation="vertical">
-
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="10dp" />
 
                 <com.google.android.gms.maps.MapView
                     android:id="@+id/mapView"
                     android:layout_width="380dp"
                     android:layout_height="350dp"
-                    android:layout_gravity="center" />
+                    android:layout_gravity="center"
+                    android:background="@drawable/transparent_rec" />
 
-                <Space
-                    android:layout_width="match_parent"
-                    android:layout_height="20dp" />
             </LinearLayout>
 
 
